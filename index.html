@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IA SGI — Transporte Griffouliere</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="app">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-left">
+        <div class="logo">G</div>
+        <div class="header-info">
+          <h1>IA SGI — Transporte Griffouliere</h1>
+          <p>Sistema de Gestión Integrado · ISO 9001 · 14001 · 45001 · 39001</p>
+        </div>
+      </div>
+      <div class="header-status">
+        <span class="status-dot"></span>
+        En línea
+      </div>
+    </header>
+
+    <!-- TABS -->
+    <nav class="tabs" id="tabs">
+      <button class="tab active" data-sector="SI">P-SI · Sistema Integrado</button>
+      <button class="tab" data-sector="SE">P-SE · Seguridad</button>
+      <button class="tab" data-sector="OP">P-OP · Operaciones</button>
+      <button class="tab" data-sector="SV">P-SV · Seg. Vial</button>
+      <button class="tab" data-sector="MA">P-MA · Medio Ambiente</button>
+      <button class="tab" data-sector="TA">P-TA · Taller</button>
+      <button class="tab" data-sector="ADM">P-ADM · Administración</button>
+      <button class="tab" data-sector="RRHH">P-RRHH · Personas</button>
+    </nav>
+
+    <!-- CHIPS -->
+    <div class="chips-wrap" id="chips-wrap"></div>
+
+    <!-- MENSAJES -->
+    <main class="messages" id="messages">
+      <div class="message bot">
+        <div class="avatar bot">G</div>
+        <div class="bubble">
+          <span class="tag tag-ok">SGI Griffouliere</span>
+          <p>Hola. Soy la IA del SGI de Transporte Griffouliere. Tengo cargados los procedimientos integrados y de seguridad vigentes. Podés consultarme sobre cualquier procedimiento usando las solapas o escribiendo tu consulta directamente.</p>
+          <p style="margin-top:8px;font-size:12px;color:#666;">Si pregunto algo que no está en la base documental, lo consulto a Claude directamente.</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- INPUT -->
+    <footer class="input-area">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Consultá cualquier procedimiento del SGI..."
+        autocomplete="off"
+      />
+      <button id="send-btn">Enviar</button>
+    </footer>
+
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
