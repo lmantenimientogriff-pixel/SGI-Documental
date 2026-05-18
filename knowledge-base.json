@@ -1,0 +1,301 @@
+{
+  "metadata": {
+    "empresa": "Transporte Griffouliere",
+    "version": "1.0",
+    "actualizado": "2026-05-18",
+    "normas": ["ISO 9001", "ISO 14001", "ISO 45001", "ISO 39001"]
+  },
+  "procedimientos": {
+    "investigacion_accidentes": {
+      "codigo": "P-SE-05",
+      "titulo": "Investigación de Accidente e Incidente",
+      "sector": "SE",
+      "revision": "05",
+      "fecha": "12/2025",
+      "url": "https://drive.google.com/file/d/1Ja4PelKCnd8Usn-HZLREIgGN1eXhACZ8/view",
+      "keywords": ["investigacion", "accidente", "incidente", "proceso investigacion", "como investigo", "siniestro", "lesion"],
+      "respuesta": "Cuando ocurre un accidente o incidente, el proceso arranca con la comunicación inmediata. El Supervisor releva la zona donde ocurrió el evento, toma declaración del personal involucrado y de los testigos, y coordina con HyS para iniciar la investigación. El objetivo no es buscar culpables sino entender qué pasó y evitar que vuelva a pasar.\n\nLa clasificación del incidente define el nivel de respuesta. Los incidentes menores los investiga directamente el Líder de Seguridad. Los relevantes suben al Gerente de Integridad, los mayores al Gerente de Operaciones y RT, y los críticos llegan al Socio Gerente. La Revisión 05 alineó esta matriz de decisión del comité según la severidad del evento.\n\nHyS lleva adelante la investigación: analiza causas raíz, identifica los factores que contribuyeron y define las acciones correctivas. Todo queda registrado en MoreApp. RRHH hace el seguimiento del personal lesionado y difunde los aprendizajes al resto del equipo.\n\nLos incidentes de tránsito tienen su propia clasificación, incorporada en la Revisión 03. Y la Revisión 04 agregó las funciones específicas del comité investigador para cada nivel de severidad.",
+      "normas": ["ISO 9001", "ISO 45001", "ISO 39001", "Ley 19587", "Dec.351/79"]
+    },
+    "enclavamiento": {
+      "codigo": "P-SE-02",
+      "titulo": "Enclavamiento / Varado de Unidad en Ruta",
+      "sector": "SE",
+      "revision": "12",
+      "fecha": "12/2025",
+      "url": "https://drive.google.com/file/d/1S__ayBzt4maD1_1mgHcuvPcOqqfEVpJ0/view",
+      "keywords": ["enclavamiento", "varado", "camion varado", "queda en ruta", "subida", "pendiente", "unidad trabada", "camion parado", "auxilio", "tractor"],
+      "respuesta": "Cuando un camión queda varado en ruta, especialmente en una subida, lo primero es asegurar la unidad: freno de mano, calzar ruedas y encender balizas para alertar al tránsito. Si la pendiente es pronunciada y hay riesgo de deslizamiento, el conductor tiene que alejarse del vehículo a una distancia segura — no intentar maniobras solo.\n\nDespués hay que comunicarse de inmediato con Sala de Logística y el Supervisor, dando la ubicación exacta, el tipo de unidad y el estado de la carga. Sala de Logística coordina el envío de una unidad tractora de reemplazo o auxilio mecánico. Este escenario está previsto específicamente en la Revisión 11 del P-SE-02, que incorporó instrucciones para el cambio de unidad tractora en caso de enclavamiento.\n\nSi durante la situación se generó algún riesgo real para el conductor o la carga, hay que reportarlo como incidente según el P-SE-05. Y antes de retomar la marcha, el conductor debe completar un nuevo Plan de Viaje en MoreApp.",
+      "alerta": "⚠️ En pendiente con carga: no intentar maniobras de tracción sin asistencia. El riesgo de vuelco es alto. Primero evacuar al conductor, después coordinar el auxilio.",
+      "normas": ["ISO 39001", "ISO 45001", "P-SE-05 Rev.5", "P-SI-21 Rev.8"]
+    },
+    "derrame": {
+      "codigo": "P-SE-02",
+      "titulo": "Gestión de Derrame",
+      "sector": "SE",
+      "revision": "12",
+      "fecha": "12/2025",
+      "url": "https://drive.google.com/file/d/1S__ayBzt4maD1_1mgHcuvPcOqqfEVpJ0/view",
+      "keywords": ["derrame", "hidrocarburo", "petroleo", "vertido", "contaminacion", "fuga", "spill"],
+      "respuesta": "Ante un derrame lo primero es detener la operación e intentar frenar la fuga cerrando válvulas, siempre que se pueda hacer sin riesgo para el operador. Después se aísla la zona — mínimo 50 metros — y se prohíbe el acceso a personal no autorizado.\n\nLa comunicación tiene que ser inmediata: Supervisor y Sala de Logística deben saber qué sustancia es, cuánto volumen estimado hay y si está afectando suelo o cursos de agua. Si el cliente lo requiere por contrato (YPF, PAE), también hay que reportarlo a ellos.\n\nPara contener el derrame se usa el kit absorbente — arena, aserrín o material específico — evitando que llegue a desagües o canales. Todo queda documentado en MoreApp y se inicia la investigación según P-SE-05.",
+      "alerta": "⚠️ Con hidrocarburo: no usar agua para contener. Prohibir fuentes de ignición en toda la zona. EPP mínimo: guantes, anteojos y calzado de seguridad.",
+      "normas": ["ISO 14001", "ISO 45001", "Ley 24051"]
+    },
+    "incendio": {
+      "codigo": "P-SE-02",
+      "titulo": "Incendio",
+      "sector": "SE",
+      "revision": "12",
+      "fecha": "12/2025",
+      "url": "https://drive.google.com/file/d/1S__ayBzt4maD1_1mgHcuvPcOqqfEVpJ0/view",
+      "keywords": ["incendio", "fuego", "llamas", "extintor", "evacuar", "bomba", "combustion"],
+      "respuesta": "Si se detecta un incendio, la prioridad es alertar a todos en la zona y evacuar al punto de encuentro designado. Cerrar puertas al salir para limitar la propagación.\n\nSi el foco es pequeño y controlable, se puede usar el extintor tipo ABC apuntando a la base del fuego y posicionándose con la salida a la espalda — nunca entre el fuego y la salida. Si el incendio ya es grande, no se intenta apagar: se evacúa y se llama a Bomberos al 100.\n\nSiempre hay que comunicar a Sala de Logística y al Supervisor con la ubicación y el tipo de carga involucrada. Después se preserva la escena para la investigación del P-SE-05.",
+      "normas": ["ISO 45001", "Dec.351/79"]
+    },
+    "accidente_transito": {
+      "codigo": "P-SE-02",
+      "titulo": "Accidente / Incidente de Tránsito",
+      "sector": "SE",
+      "revision": "12",
+      "fecha": "12/2025",
+      "url": "https://drive.google.com/file/d/1S__ayBzt4maD1_1mgHcuvPcOqqfEVpJ0/view",
+      "keywords": ["accidente transito", "choque", "colision", "siniestro vial", "accidente vehicular", "atropello", "volcamiento"],
+      "respuesta": "Lo primero es verificar el estado de todos los involucrados. Si hay lesionados, llamar al 107 o al 911 sin demora.\n\nHay que señalizar la escena con triángulos reflectivos y balizas, y no mover los vehículos salvo peligro inminente. Después comunicar de inmediato a Sala de Logística y al Supervisor: ubicación, personas involucradas, estado de la carga y daños visibles.\n\nEs importante preservar la escena y documentar con fotos antes de que llegue la Policía. El evento se reporta en MoreApp y se abre investigación según P-SE-05. El comité que interviene depende de la severidad: accidente menor lo maneja el Líder de Seguridad, uno relevante sube al Gerente de Integridad, y uno mayor o crítico llega al Socio Gerente.",
+      "normas": ["ISO 39001", "ISO 45001", "P-SE-05 Rev.5", "Ley 24449"]
+    },
+    "espacio_confinado": {
+      "codigo": "P-SE-10",
+      "titulo": "Trabajo en Espacio Confinado",
+      "sector": "SE",
+      "revision": "02",
+      "fecha": "12/2024",
+      "url": "https://drive.google.com/file/d/1OEIL-dJHCvdZgxXSIdfRc5529KVR14y-/view",
+      "keywords": ["espacio confinado", "cisterna", "tanque", "ingreso cisterna", "gases", "h2s", "oxigeno", "vig ia", "permiso trabajo"],
+      "respuesta": "Para ingresar a una cisterna o tanque primero se necesita el Permiso de Trabajo habilitado y firmado por el Jefe de Taller o el Jefe de Sala de Mantenimiento. Sin ese permiso no se ingresa, punto.\n\nAntes de entrar hay que medir la atmósfera interior con el detector de gases calibrado: el oxígeno tiene que estar entre 19.5% y 23.5%, los gases inflamables por debajo del 10% del límite explosivo inferior, y verificar la ausencia de CO o H2S. Esas mediciones se registran en MoreApp.\n\nLa ventilación forzada tiene que estar activa durante todo el trabajo, no solo al inicio. Y es obligatorio designar un vigía externo capacitado que se quede afuera en todo momento manteniendo comunicación constante con quien está adentro. El plan de rescate también tiene que estar definido antes de que alguien ingrese.",
+      "alerta": "⚠️ Nunca ingresar a cisterna sin medición de gases previa y permiso habilitado. La atmósfera deficiente en oxígeno o con H2S puede ser letal en segundos.",
+      "normas": ["ISO 45001", "P-SE-13 Rev.02", "Dec.351/79"]
+    },
+    "epp": {
+      "codigo": "P-SE-06",
+      "titulo": "Elementos de Protección Personal",
+      "sector": "SE",
+      "revision": "04",
+      "fecha": "11/2025",
+      "url": "https://drive.google.com/file/d/14fD1wrvaAfNXtRvoa7W4SdaonhZByald/view",
+      "keywords": ["epp", "proteccion personal", "casco", "guantes", "anteojos", "botas", "chaleco", "arnes", "ropa trabajo"],
+      "respuesta": "El EPP requerido depende de la tarea y los peligros identificados en el IPCR. Para operaciones de transporte el básico obligatorio es: casco, botas de seguridad, ropa de trabajo, anteojos y chaleco reflectivo.\n\nHay EPP específico según la tarea: guantes para manipulación de hidrocarburos, protección respiratoria cuando hay exposición a gases, arnés y línea de vida para trabajo en altura, y protector facial tipo burbuja para el chofer en carga de etanol (Downstream), incorporado en la Revisión 4.\n\nEl Supervisor entrega el EPP cuando el personal está fuera de la empresa y registra la entrega bajo el formato de la Res.299/11. Depósito mantiene stock mínimo del 10%. Todos los movimientos de EPP se registran en Wiiprot desde la Rev.04.",
+      "normas": ["ISO 45001", "Ley 19587", "Dec.351/79", "Res.299/11", "Res.18/2025"]
+    },
+    "alcohol_drogas": {
+      "codigo": "P-SE-16",
+      "titulo": "Programa Control Alcohol, Tabaco y Drogas",
+      "sector": "SE",
+      "revision": "01",
+      "fecha": "08/2024",
+      "url": "https://drive.google.com/file/d/1GD5qAud7a1uusiEme9Vn_fC_66QCrqQG/view",
+      "keywords": ["alcohol", "drogas", "tabaco", "alcoholimetro", "control sustancias", "psicoactivas", "positivo alcohol"],
+      "respuesta": "La política es de cero tolerancia. El programa aplica a todo el personal propio y contratistas sin excepción.\n\nLos controles con alcoholímetro se hacen al ingreso al turno y de forma aleatoria durante la operación. Los motivos para un control pueden ser: ingreso al turno, sospecha fundada, después de un accidente, de forma aleatoria, o al reincorporarse después de una sanción.\n\nSi alguien da positivo, se detiene la tarea de inmediato y se aparta al conductor del servicio. El Supervisor notifica a RRHH, que coordina con Medicina Laboral la evaluación y la intervención. El programa tiene fases definidas de diagnóstico e intervención para acompañar al trabajador.",
+      "normas": ["ISO 45001", "Ley 26.687", "Ley 24.557", "Ley 19.587"]
+    },
+    "manejo_invernal": {
+      "codigo": "P-SE-11",
+      "titulo": "Manejo Invernal",
+      "sector": "SE",
+      "revision": "01",
+      "fecha": "05/2017",
+      "url": "https://drive.google.com/file/d/1aKwa8iCPLr8U3UHi9UUmfnyTl9Tl9Y9D/view",
+      "keywords": ["invernal", "nieve", "hielo", "invierno", "cadenas", "helada", "hielo negro", "frio", "manejo nieve"],
+      "respuesta": "Antes de salir en época invernal el conductor tiene que revisar el checklist específico: neumáticos con presión correcta, frenos y dirección en condiciones, luces y balizas funcionando, parabrisas y limpiaparabrisas en buen estado, linterna, pala, chalecos reflectivos, botiquín y cadenas si el recorrido lo requiere.\n\nTambién hay que consultar el estado de las rutas antes de salir: Vialidad Nacional y Neuquén tienen webs con estado de transitabilidad, y para Mendoza hay que llamar por teléfono. Si la temperatura exterior está en 3°C o menos, el riesgo de hielo negro es real — especialmente en madrugada y primeras horas de la mañana.\n\nSi las condiciones son inseguras, el conductor detiene el viaje, comunica a Sala de Logística y espera autorización para continuar.",
+      "alerta": "⚠️ Este procedimiento tiene revisión de 2017 y figura como VENCIDO. Aplicar los lineamientos vigentes hasta nueva versión — ante dudas consultar con CMASS.",
+      "normas": ["ISO 39001", "ISO 45001", "Ley 24449"]
+    },
+    "conduccion_segura": {
+      "codigo": "P-SE-08",
+      "titulo": "Conducción Segura de Vehículos",
+      "sector": "SE",
+      "revision": "01",
+      "fecha": "01/2025",
+      "url": "https://drive.google.com/file/d/1zLLAu5DI41kTvbwZUqMXv9-IBcwH7GvI/view",
+      "keywords": ["conduccion segura", "manejo defensivo", "velocidad", "limites velocidad", "habilitaciones", "licencia conducir"],
+      "respuesta": "La conducción segura se apoya en cinco pilares: documentación y habilitaciones vigentes, conductor apto, vehículo en condiciones, vías conocidas y capacidad de respuesta ante emergencias.\n\nTodo conductor tiene que identificarse con la llave IBUTTON antes de cada viaje, completar el Plan de Viaje, respetar los límites de velocidad del contrato del cliente, y descansar 15 minutos cada 4 horas de manejo. Los controles médicos anuales son obligatorios.\n\nCualquier incidente vehicular tiene que reportarse. Las infracciones se gestionan por el P-SI-19. En época invernal aplica el P-SE-11.",
+      "normas": ["ISO 39001", "P-SI-21 Rev.8", "Ley 24449"]
+    },
+    "ipcr": {
+      "codigo": "P-SE-01",
+      "titulo": "Identificación de Peligros y Control de Riesgos",
+      "sector": "SE",
+      "revision": "07",
+      "fecha": "11/2025",
+      "url": "https://drive.google.com/file/d/1DbEpCYnupf0BmHfQ6sjwbYWSnJoofJh6/view",
+      "keywords": ["ipcr", "identificacion peligros", "evaluacion riesgos", "matriz riesgos", "peligro", "riesgo", "control riesgo"],
+      "respuesta": "El IPCR es la herramienta que se usa antes de arrancar cualquier tarea para identificar los peligros y definir cómo controlarlos. Las personas que van a hacer el trabajo se reúnen, analizan los pasos de la tarea y para cada uno piensan qué puede salir mal, cuán probable es y qué tan grave sería.\n\nLa Revisión 07 incorporó la Matriz de Evaluación de Riesgos con frecuencia de control. Los riesgos se clasifican en bajo, medio, alto o crítico. Los controles se priorizan: primero eliminar el peligro, luego sustituirlo, después ingeniería, después administrativo y último el EPP.\n\nSi durante la ejecución aparece un peligro nuevo no identificado, se detiene la tarea — aplicando el P-SI-28 — y se re-evalúa antes de continuar.",
+      "normas": ["ISO 45001", "ISO 14001", "ISO 39001", "Ley 19.587", "Dec.351/79"]
+    },
+    "mapa_riesgo": {
+      "codigo": "P-SE-19",
+      "titulo": "Mapa de Riesgo en Caminos",
+      "sector": "SE",
+      "revision": "00",
+      "fecha": "03/2024",
+      "url": "https://drive.google.com/file/d/1NxhRCKbdFJ3nsgF-a0O4-g-yZOOonE8z/view",
+      "keywords": ["mapa riesgo", "riesgo caminos", "rutas peligrosas", "tramos", "my mapps", "linktree", "vialidad"],
+      "respuesta": "El mapa de riesgo en caminos le permite al conductor conocer de antemano los peligros de cada tramo antes de salir. Se implementa a través de My Mapps integrada con Linktree, lo que permite actualizarlo rápido y accederlo desde cualquier dispositivo.\n\nContiene el listado de tramos, los riesgos identificados en cada uno y la fecha de actualización. Las fuentes de información son el rastreo satelital RSV, Vialidad Nacional, Vialidad Provincial y el mapa de siniestros de CIPET.\n\nSe actualiza cuando cambia la ruta, por requerimiento del cliente, o cuando se detecta un nuevo riesgo en terreno. El responsable de Gestión y el Jefe de Logística son quienes lo mantienen.",
+      "normas": ["ISO 39001", "Ley 24449"]
+    },
+    "parada_descanso": {
+      "codigo": "P-SE-09",
+      "titulo": "Consideraciones HSSE en Paradas de Descanso",
+      "sector": "SE",
+      "revision": "00",
+      "fecha": "12/2012",
+      "url": "https://drive.google.com/file/d/1BzXI2Ao1eFx2Mx9NTnEj__uxv6i4RxS9/view",
+      "keywords": ["parada descanso", "descanso", "estacionamiento", "banquina", "semiremolque", "robo asalto parada"],
+      "respuesta": "Las paradas solo se pueden hacer en los lugares definidos en el Plan de Viaje. Si por algún motivo hay que cambiar el lugar o el tiempo de descanso, hay que avisarle de inmediato al Encargado de Base.\n\nA la hora de estacionar hay que elegir un lugar seguro y lo más plano posible. Si hay desnivel, se colocan tacos de madera en las ruedas traseras. Lo recomendado es estacionarse marcha atrás. Nunca en la banquina ni en la vía pública sin señalización.\n\nNunca se desacopla el semirremolque cuando está cargado. Ante un robo o asalto, la indicación es no resistir, entregar lo que pidan y avisar a la Policía cuando sea posible.",
+      "normas": ["ISO 39001", "ISO 45001"]
+    },
+    "trabajo_altura": {
+      "codigo": "P-SE-18",
+      "titulo": "Trabajo en Altura",
+      "sector": "SE",
+      "revision": "00",
+      "fecha": "06/2024",
+      "url": "https://drive.google.com/file/d/19f5mo_BpNmzgDTSAaSm0YC8-EfpwL0WI/view",
+      "keywords": ["trabajo altura", "arnes", "linea de vida", "andamio", "caida altura", "plan seguridad altura"],
+      "respuesta": "Antes de arrancar cualquier trabajo en altura hay que hacer la evaluación de riesgos siguiendo el Decreto 351/79 y la Resolución 61/2023, identificar los peligros y definir las medidas de control.\n\nSe requiere Permiso de Trabajo habilitado y un Plan de Seguridad específico aprobado por el Jefe de Base o Taller. El EPP obligatorio incluye arnés de seguridad, línea de vida, lentes, casco y calzado antideslizante. Todo el equipamiento tiene que inspeccionarse antes de usarlo.\n\nEl Jefe de Base o Taller es responsable de asegurar que el personal esté capacitado antes de autorizar la tarea.",
+      "normas": ["ISO 45001", "Res.61/2023", "Dec.351/79"]
+    },
+    "plan_viaje": {
+      "codigo": "P-SI-21",
+      "titulo": "Control del Plan de Viaje",
+      "sector": "SI",
+      "revision": "08",
+      "fecha": "05/2026",
+      "url": "https://drive.google.com/file/d/1o1HTcs1NOkeH4RllPmHovifIvBea_8Ij/view",
+      "keywords": ["plan de viaje", "plan viaje", "viaje", "logistica", "ibutton", "diagrama", "turno", "jornada", "desvio viaje"],
+      "respuesta": "El Plan de Viaje es el documento central para planificar y controlar cada servicio. El conductor lo genera antes de salir verificando su estado de ánimo, el estado de la unidad, los caminos a transitar, las condiciones climáticas y las horas de conducción disponibles.\n\nSala de Logística recepciona la asignación del cliente, designa la unidad y el personal según el diagrama y la matriz de polivalencia. Las jornadas no pueden superar las 12 horas, con esquema 14x7 o 5x2 y franco intermedio entre el último día diurno y el primer día nocturno. El descanso obligatorio es de 15 minutos cada 4 horas de manejo.\n\nAntes de arrancar, el conductor tiene que identificarse con la llave IBUTTON. Cualquier desvío durante el viaje se comunica de inmediato a Logística y al Supervisor.",
+      "normas": ["ISO 9001", "ISO 39001", "ISO 45001"]
+    },
+    "conductas_manejo": {
+      "codigo": "P-SI-25",
+      "titulo": "Control de Conductas de Manejo",
+      "sector": "SI",
+      "revision": "02",
+      "fecha": "12/2025",
+      "url": "https://drive.google.com/file/d/1tHjd0Lk3ycNpRSteF9UcKrpMZBtHOk1S/view",
+      "keywords": ["conductas manejo", "ibutton", "velocidad", "frenadas bruscas", "ralenti", "telemetria", "satelital", "desvio conduccion"],
+      "respuesta": "El sistema registra automáticamente las conductas de manejo a través del monitoreo satelital: excesos de velocidad, frenadas bruscas y tiempo de ralentí. Para que todo eso tenga trazabilidad, el conductor tiene que identificarse con la llave IBUTTON antes de mover el vehículo.\n\nSST analiza los datos y comunica los desvíos a los responsables de forma diaria y mensual. La Revisión 02 incorporó específicamente el responsable del control de ralentí. Cuando se detecta un desvío, el Supervisor notifica al conductor y RRHH define si se requiere alguna intervención.\n\nLas multas que vengan de infracciones del conductor se derivan directamente al P-SI-19.",
+      "normas": ["ISO 9001", "ISO 39001", "Ley 24449"]
+    },
+    "ypf_ruta": {
+      "codigo": "P-SI-26",
+      "titulo": "Uso de Tarjetas YPF Ruta",
+      "sector": "SI",
+      "revision": "00",
+      "fecha": "10/2024",
+      "url": "https://drive.google.com/file/d/19-YyOf25k5U1XpzLp3XtXBc8G25K3xBz/view",
+      "keywords": ["ypf ruta", "tarjeta ypf", "combustible", "carga combustible", "pin combustible", "ticket combustible", "kilometraje carga"],
+      "respuesta": "Cada conductor tiene asignado un PIN de 4 dígitos personal e intransferible. Antes de cargar hay que verificar que el número de la tarjeta coincida con la patente del vehículo. Todas las cargas se hacen a tanque lleno y hay que registrar el kilometraje al momento de cargar, preferentemente del tacógrafo satelital.\n\nLa estación emite dos tickets: el original se lo queda el conductor y lo conserva 60 días, el duplicado firmado queda en la estación. Si por fuerza mayor hay que usar una tarjeta diferente, primero se pide autorización al Supervisor de turno y él avisa al área de trazabilidad al 2617093594.",
+      "normas": ["ISO 9001", "ISO 39001"]
+    },
+    "multas": {
+      "codigo": "P-SI-19",
+      "titulo": "Gestión de Multas por Infracción",
+      "sector": "SI",
+      "revision": "06",
+      "fecha": "02/2026",
+      "url": "https://drive.google.com/file/d/1S1quc_MW8PDGvo9hPVYTCWOSYCL6sJMc/view",
+      "keywords": ["multa", "infraccion", "transito multa", "gestion multa", "concientizacion conductor"],
+      "respuesta": "Cuando llega una multa lo primero es identificar la unidad y al conductor responsable. Se notifica al conductor y se carga todo en MoreApp con los datos de la infracción.\n\nLa Revisión 06 incorporó un paso clave: la comunicación y concientización al conductor. No es solo gestionar el pago, sino analizar con el conductor qué conducta generó la infracción y trabajar sobre eso. Los datos de multas alimentan el análisis de conductas del P-SI-25.\n\nSi la infracción refleja un desvío grave o reincidencia, se deriva a RRHH para una intervención más formal.",
+      "normas": ["ISO 9001", "ISO 39001", "Ley 24449", "Ley 9024 Mendoza"]
+    },
+    "hallazgos": {
+      "codigo": "P-SI-04",
+      "titulo": "Gestión de Hallazgos",
+      "sector": "SI",
+      "revision": "09",
+      "fecha": "12/2025",
+      "url": "https://drive.google.com/file/d/1Cpoan1pZ0vwpb2xQFcYAejpr738VjBlP/view",
+      "keywords": ["hallazgo", "no conformidad", "nc", "observacion", "oportunidad mejora", "accion correctiva", "causa raiz"],
+      "respuesta": "Cuando se detecta algo que no está bien, lo primero es definir qué tipo de hallazgo es. Una No Conformidad es un incumplimiento claro de un requisito. Una Observación es algo que no llega a ser una NC pero que podría serlo si no se corrige. Y una Oportunidad de Mejora es una propuesta para hacer algo mejor, sin que haya un incumplimiento.\n\nEl personal que detecta el hallazgo le avisa a su Responsable de Sector, que convoca una reunión con el Responsable del proceso involucrado para analizar la causa raíz y definir las acciones. La Revisión 09 incorporó un Comité de investigación para los hallazgos más significativos. El RSGI hace el seguimiento y verifica que las acciones implementadas hayan sido eficaces.",
+      "normas": ["ISO 9001", "ISO 14001", "ISO 45001", "ISO 39001"]
+    },
+    "auditoria": {
+      "codigo": "P-SI-06",
+      "titulo": "Auditorías Internas",
+      "sector": "SI",
+      "revision": "05",
+      "fecha": "04/2024",
+      "url": "https://drive.google.com/file/d/1BpdV8zTUWp7ELbWVgrbCIiBzEYDPzsP8/view",
+      "keywords": ["auditoria", "auditoria interna", "programa auditoria", "auditor", "plan auditoria", "hallazgo auditoria"],
+      "respuesta": "El RSGI elabora el Programa Anual de Auditorías junto con la dirección, definiendo qué sectores y procesos se auditan en cada mes, cuidando que no se superpongan con vacaciones ni auditorías externas.\n\nEl equipo auditor siempre es independiente del sector auditado. La auditoría arranca con una reunión inicial, luego viene la ejecución con entrevistas y revisión de evidencias, y cierra con un informe de hallazgos.\n\nTodo lo que surja se gestiona como hallazgos según el P-SI-04. Los resultados son dato de entrada obligatorio para la Revisión por Dirección.",
+      "normas": ["ISO 9001", "ISO 14001", "ISO 45001", "ISO 39001", "ISO 19011"]
+    },
+    "cambio": {
+      "codigo": "P-SI-15",
+      "titulo": "Gestión del Cambio",
+      "sector": "SI",
+      "revision": "03",
+      "fecha": "11/2025",
+      "url": "https://drive.google.com/file/d/1LP2mVPCwp5Vc0TJyVOibtXWuEhzTrMTE/view",
+      "keywords": ["gestion cambio", "cambio proceso", "cambio organizacional", "modificacion", "analisis riesgo cambio"],
+      "respuesta": "Cualquier cambio que afecte los procesos, el personal, los equipos, los sistemas o la documentación tiene que pasar por este procedimiento antes de implementarse. La clave es el análisis de riesgo previo — no se puede cambiar algo sin antes evaluar si ese cambio genera un riesgo nuevo.\n\nEl que quiere hacer el cambio lo plantea formalmente al responsable del proceso explicando la necesidad, el alcance y los riesgos potenciales. La Gerencia evalúa si es viable y lo aprueba o rechaza. La aprobación tiene que quedar documentada y comunicada a todos los afectados.\n\nLa Revisión 03 incorporó el análisis de riesgo directamente en el formulario de solicitud de cambio.",
+      "normas": ["ISO 9001", "ISO 14001", "ISO 45001", "ISO 39001"]
+    },
+    "codificacion": {
+      "codigo": "P-SI-01",
+      "titulo": "Control de Documentos y Registros",
+      "sector": "SI",
+      "revision": "09",
+      "fecha": "01/2025",
+      "url": "https://drive.google.com/file/d/148BtQ1rY-m0FlWnW3iSkXdWoV2SRmAHg/view",
+      "keywords": ["codificacion", "codigo documento", "nomenclatura", "control documentos", "version", "revision documento", "obsoleto"],
+      "respuesta": "Los documentos del SGI siguen una estructura de código definida. La primera parte indica el tipo: P es Procedimiento, PE es Procedimiento Específico, DIA es Diagrama, DOC es Documento e I es Instructivo. La segunda parte indica el sector: SI para Sistema Integrado, SE para Seguridad, MA para Medio Ambiente, SV para Seguridad Vial, OP para Operaciones, TA para Taller, ADM para Administración y RRHH para Recursos Humanos. La tercera parte es el número correlativo.\n\nLos registros asociados a un documento se identifican agregando R-01, R-02, etc. antes del código. Los documentos distribuidos en papel son copias no controladas — hay que verificar siempre que se está usando la versión vigente.",
+      "normas": ["ISO 9001 Req.7.5"]
+    },
+    "conservacion": {
+      "codigo": "P-SI-01",
+      "titulo": "Conservación de Registros",
+      "sector": "SI",
+      "revision": "09",
+      "fecha": "01/2025",
+      "url": "https://drive.google.com/file/d/148BtQ1rY-m0FlWnW3iSkXdWoV2SRmAHg/view",
+      "keywords": ["conservacion registros", "tiempo registros", "archivo", "backup", "retener", "cuanto tiempo guardar"],
+      "respuesta": "Los registros del SGI se conservan por 3 años como mínimo. Los registros contables se guardan 10 años. Si el cliente establece en el contrato un plazo específico, ese plazo tiene prioridad.\n\nLos registros digitales viven en los sistemas donde se generan — MoreApp, CloudFleet, Drive — y el backup es automático. Los documentos obsoletos no se eliminan — se mueven a la carpeta de Obsoletos en el servidor, lo que permite recuperarlos si alguna vez son necesarios.",
+      "normas": ["ISO 9001 Req.7.5"]
+    },
+    "docs_vencidos": {
+      "codigo": "SSMA",
+      "titulo": "Estado Documentación de Seguridad",
+      "sector": "SE",
+      "revision": "13/05/2026",
+      "fecha": "05/2026",
+      "url": "https://drive.google.com/file/d/1cdkAsc8OoajgnCLZ9KAIqXmu5IIE9oXP/view",
+      "keywords": ["vencidos", "documentos vencidos", "estado documentacion", "revisar procedimiento", "desactualizados"],
+      "respuesta": "Hay 12 procedimientos de seguridad que requieren revisión inmediata según el registro al 13/05/2026. Los más críticos son el P-SE-11 de Manejo Invernal, con 2.925 días vencido desde 2017 — muy preocupante con la temporada invernal activa — y el P-SE-14 de Control de Izaje, con 1.944 días vencido desde enero 2020.\n\nTambién están vencidos: P-SE-08 (-132 días), P-SE-10 (-137 días), P-SE-13 (-119 días), P-SE-15 (-863 días), P-SE-16 (-281 días), P-SE-17 (-259 días), P-SE-18 (-341 días), P-SE-19 (-425 días), P-SE-20 (-38 días) y P-SE-21 (-132 días).\n\nLos vigentes sin acción inmediata son: P-SE-01, P-SE-02, P-SE-05, P-SE-06, P-SE-09 y P-SE-22.",
+      "alerta": "⚠️ Responsable: Líder de CSMA. P-SE-11 Manejo Invernal es urgente con la temporada invernal en curso.",
+      "normas": ["ISO 9001 Req.7.5", "ISO 45001", "ISO 39001"]
+    },
+    "compras": {
+      "codigo": "P-SI-07",
+      "titulo": "Compra de Materiales y Servicios",
+      "sector": "ADM",
+      "revision": "08",
+      "fecha": "07/2022",
+      "url": "https://drive.google.com/file/d/1v7OCgjZLX33GqVFiTXX8_o0qkpjhp1X4/view",
+      "keywords": ["compras", "presupuesto", "orden compra", "nota pedido", "moreapp compras", "proveedor aprobado"],
+      "respuesta": "Para compras que superen los 1.000 dólares en bienes o los 500 dólares en servicios, es obligatorio solicitar tres presupuestos como mínimo. También cuando es un producto o servicio del que no hay antecedentes previos.\n\nLas solicitudes de productos se hacen por MoreApp con la Nota de Pedido. Los servicios se solicitan por OT en el sistema Setup con todos los campos completos. Antes de hacer cualquier pedido hay que verificar que el proveedor esté evaluado y aprobado en el listado.",
+      "normas": ["ISO 9001", "ISO 14001", "ISO 45001"]
+    },
+    "proveedores": {
+      "codigo": "P-SI-08",
+      "titulo": "Evaluación y Control de Proveedores",
+      "sector": "ADM",
+      "revision": "07",
+      "fecha": "07/2022",
+      "url": "https://drive.google.com/file/d/1AMzyTJ0SsFOFjWolMgLbLKZtHyWctwHz/view",
+      "keywords": ["proveedor", "evaluacion proveedor", "proveedor critico", "reevaluacion", "baja proveedor", "lista proveedores"],
+      "respuesta": "Solo se evalúan formalmente los proveedores críticos — los que tienen impacto directo en la calidad del servicio o en la seguridad. La evaluación se hace semestralmente y analiza seis criterios: calidad, tiempo de entrega, precio, condiciones comerciales, SST y Medio Ambiente, y Seguridad Vial. Cada criterio se puntúa del 1 al 5.\n\nLa Revisión 07 aclaró especialmente la definición de materiales críticos y proveedores críticos. La baja de un proveedor la autoriza la Dirección.",
+      "normas": ["ISO 9001", "ISO 14001", "ISO 45001", "ISO 39001"]
+    }
+  }
+}
